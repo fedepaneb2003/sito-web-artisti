@@ -1,0 +1,117 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenitore della navbar */
+.navbar-container {
+    background-color: #FF823C; /* Colore di sfondo arancione */
+    padding: 10px 20px; /* Spaziatura interna */
+}
+
+/* Stili per la lista della navbar */
+.navbar {
+    list-style: none; /* Rimuove i punti elenco */
+    display: flex; /* Disposizione orizzontale degli elementi */
+    justify-content: space-around; /* Spaziatura uniforme tra gli elementi */
+}
+
+/* Stili per i link della navbar */
+.navbar li a {
+    text-decoration: none; /* Rimuove la sottolineatura dei link */
+    color: black; /* Colore del testo */
+    font-weight: bold; /* Testo in grassetto */
+    padding: 10px 15px; /* Spaziatura interna dei link */
+    border-radius: 5px; /* Angoli arrotondati */
+    transition: background-color 0.3s; /* Transizione per il colore di sfondo */
+    max-width:max-content;
+}
+
+/* Funzione per allineare a sinistra nella navbar */
+.nav-left {
+    margin-right: auto; /* Spinge l'elemento verso sinistra */
+}
+
+/* Funzione per allineare a destra nella navbar */
+.nav-right {
+    margin-left: auto; /* Spinge l'elemento verso destra */
+}
+
+/* Funzione per centrare nella navbar */
+.nav-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* Funzione per allineare a sinistra il testo e l'immagine */
+.content-left {
+    margin-right: auto; /* Spinge l'elemento verso sinistra */
+    margin-left: 20px; /* Margine a sinistra */
+    margin-top: 20px; /* Margine in alto */
+    margin-bottom: 20px; /* Margine in basso */
+    max-width: 1100px; /* Larghezza massima */
+    width: 50%;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+/* Funzione per allineare a destra il testo e l'immagine */
+.content-right {
+    margin-left: auto; /* Spinge l'elemento verso destra */
+    margin-right: 20px; /* Margine a destra */
+    margin-top: 20px; /* Margine in alto */
+    margin-bottom: 20px; /* Margine in basso */
+    width: 50%;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+/* Funzione per centrare il testo e l'immagine */
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 50%;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.image-item {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 60px;
+    text-align: center;
+    height: 350px; /* Altezza fissa per allineare i contenuti */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra l'immagine */
+}
+
+.image-title {
+    font-size: 16px;
+    text-decoration: none; /* Rimuove la sottolineatura dei link */
+    color: black; /* Colore del testo */
+    font-weight: bold; /* Testo in grassetto */
+    padding: 10px 15px; /* Spaziatura interna dei link */
+    border-radius: 5px; /* Angoli arrotondati */
+    color: initial;
+}
+
+.text{
+    max-width: 600px; 
+    margin: 0 auto;
+}
